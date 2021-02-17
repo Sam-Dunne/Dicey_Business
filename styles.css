@@ -1,0 +1,43 @@
+#page-container {
+    background-color: rgba(212, 212, 235, 0.397);
+    height: 100vh;
+}
+
+#die-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(65, 105, 225, 0.349);
+    height: fit-content;
+    align-items: center;
+    justify-content: flex-start;
+    column-count: 5;
+    /* padding: 20px 20px 20px 20px; */
+}
+
+.dice {
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+    font-size: 3em;
+    background-color:  rgba(232, 232, 248, 0.979);
+    border: 5px solid black;
+    border-radius: 25px;
+    margin: 30px;
+    text-align: center;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 0 1em 0;
+}
+
+.buttons {
+    background-color: royalblue;
+    height: 3em;
+    width: 200px;
+    color: floralwhite;
+    border-radius: 15px;
+    font-size: 1.5em;
+}
